@@ -7,7 +7,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 
-export default function Header({ params }: { params: Promise<{ id: string }> }) {
+export default function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
